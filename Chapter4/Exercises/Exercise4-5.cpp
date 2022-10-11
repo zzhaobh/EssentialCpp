@@ -45,9 +45,9 @@ inline void Matrix::operator += (const Matrix add_matrix) {
 // Non-member Functions
 
 inline Matrix operator + (const Matrix &matrix_1, const Matrix &matrix_2) { //< add two matrices
-  if (! add_check(matrix_1, matrix_2)) {
-    cerr << "Addition error: matrices incompatible dimensions." << endl;
-  }
+//  if (! add_check(matrix_1, matrix_2)) {
+//    cerr << "Addition error: matrices incompatible dimensions." << endl;
+//  }
   Matrix out_matrix(double(0));
   out_matrix += matrix_1;
   out_matrix += matrix_2;
