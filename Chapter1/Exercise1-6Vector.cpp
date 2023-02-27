@@ -14,7 +14,7 @@ using namespace std;
 int main() {
   vector<int> sequence;
   int value;
-  int sum;
+  int sum=0;
   double average;
   cout << "Please provide a sequence of integers.\n";
   while (cin >> value) {

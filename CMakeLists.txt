@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21.1)
 project(essentialcpp)
 
-add_executable(essentialcpp Chapter4/Exercises/MatrixTest.cpp) # 生成可执行文件
+add_executable(essentialcpp Chapter1/Exercise1-7.cpp) # 生成可执行文件
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")

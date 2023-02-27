@@ -9,10 +9,21 @@
 #include <stdio.h>
 #include <iostream>
 #include <string>
+#include <complex>
+
 using namespace std;
 
 int main() {
-  
-  return 0
+    string a;
+    cin >> a;
+    if (a.length() > 4 and a.length() <=10) { cout << a << '\n'; }
+    else if (a.length() > 10) { cout << "TOO LONG" << '\n'; }
+    else { cout << "TOO SHOT" << '\n'; }
+//    cout << a << '\n';
+    double x, y;
+    cin >> x >> y;
+    complex<double> p(x, y);
+    cout << '\n' << p << '\n';
+    return 0;
 }
 
