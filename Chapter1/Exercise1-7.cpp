@@ -18,12 +18,12 @@ using namespace std;
 int main() {
   vector<string> word_vec;
   vector<string> sorted_word_vec;
-  ifstream readfile("/Users/feynmanzhao/Code/github/EssentialCpp/Chapter1/WordList.txt");
+  ifstream readfile("Chapter1/WordList.txt");
   string word;
   if (!readfile) {
     cerr << "Can't find Wordlist.txt. Please check location of file.\n";
   }
-  ofstream outfile("/Users/feynmanzhao/Code/github/EssentialCpp/Chapter1/SortedWordList.txt");
+  ofstream outfile("Chapter1/SortedWordList.txt");
   if (!outfile) {
     cerr << "Failed to open output file.\n";
   }
